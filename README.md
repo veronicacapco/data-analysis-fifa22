@@ -8,7 +8,7 @@
 
 ### Contents
 - `players_22.csv` is the source data used in the project
-- `fifa22_python_code` is the source code
-- `report.pdf` is the final document report
+- `fifa22-python-code` is the source code
+- `fifa22-report.pdf` is the final document report
 
 ### Abstract
