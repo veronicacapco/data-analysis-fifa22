@@ -1,5 +1,19 @@
 import pandas as pd
-import
+import numpy as np
+import altair as alt
+
+# importing the dataset
+data = pd.read_csv('data/players-22.csv')
+
+# tidying the data
+raw_data = pd.read_csv('data/players-22.csv')
+
+data_mod1 = raw_data[['long_name', 'nationality_name', 'age', 
+                      'height_cm', 'weight_kg', 'overall', 'wage_eur', 
+                      'international_reputation', 'shooting',
+                      'passing', 'dribbling', 'defending']]
+data_mod1.head()
+data_mod1.to_csv('tidy-data.csv')
 
 # overall score
 player_sample = data_mod1.sample(5000)  # max number of rows that Altair can use is 5000
