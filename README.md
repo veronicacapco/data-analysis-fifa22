@@ -8,8 +8,8 @@
 
 ### Contents
 - `players-22.csv` is the source data used in the project
-- `fifa22-python-code.py` is the code which was featured in the final report
-- `fifa22-exploratory-python-code.py` is the initial exploratory analysis code used to gather information for further analyses
+- `fifa22-python-code.py` is the code illustrating the second part of the analysis which was also featured in the final report
+- `fifa22-exploratory-python-code.py` is the initial exploratory analysis code which I contributed to and used to gather information for further analyses
 - `fifa22-report.pdf` is the final report
 
 ### Abstract
